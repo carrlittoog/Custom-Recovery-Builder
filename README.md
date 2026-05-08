@@ -1,59 +1,82 @@
 # Custom Recovery Builder
 
 <p align="center">
-  <img src="https://i.imgur.com/0zK8v.gif" width="800" alt="Recovery Builder Banner">
+  <img src="https://img.shields.io/badge/Custom%20Recovery%20Builder-000000?style=for-the-badge&logo=android&logoColor=00FF88&labelColor=111111" alt="Title" width="620">
 </p>
 
 <p align="center">
-  <strong>The Ultimate Custom Recovery Building Experience</strong><br>
-  <em>Lightning Fast • Fully Private • URL Based</em>
+  <strong>The Ultimate • Fastest • Most Flexible</strong><br>
+  <strong>Custom Recovery Building Platform</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-00FF88?style=for-the-badge&logo=vercel" alt="Status">
-  <img src="https://img.shields.io/badge/Android-10..16-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Android-10%20to%2016-3DDC84?style=for-the-badge&logo=android" alt="Android">
   <img src="https://img.shields.io/badge/Powered%20by-AWS%20EC2-FF9900?style=for-the-badge&logo=amazonaws" alt="AWS">
-  <img src="https://img.shields.io/badge/Notifications-Telegram-229ED9?style=for-the-badge&logo=telegram" alt="Telegram">
 </p>
 
 ---
 
-<div align="center">
-  <h2>⚡ Blazing Fast • 100% Private • Truly Universal</h2>
-</div>
+## ⚡ Introduction
+
+**No device tree uploading needed.**  
+Just paste the Recovery Tree Git URL and get your custom recovery built privately with Telegram notifications.
 
 ---
 
 ## ✨ Key Features
 
-- ⚡ **Ultra Fast Builds** on High-End AWS EC2 Servers
-- 🔒 **Completely Private** — Builds visible only to you
+- ⚡ **Blazing Fast Builds** on high-end AWS EC2 servers
+- 🔒 **100% Private Builds** — Only you can access them
 - 📲 **Instant Telegram Notifications**
-- 🔗 **Just Paste URL** — No need to upload device trees
-- 🌍 Supports **TWRP, OrangeFox, PitchBlack, SHRP, OmniROM** and any custom tree
-- 🧩 Full Android 10 to 16 support
+- 🔗 **URL Based** — Paste any Recovery or Device Tree Git link
+- 🌍 Full support for TWRP, OrangeFox, PitchBlack, SHRP, OmniROM & any custom fork
+- 🧩 Android 10 to 16 supported
 
 ---
 
 ## 🚀 How to Build
 
-1. Go to **Actions** tab
-2. Choose **Custom Recovery Builder**
-3. Click **Run workflow**
-4. Fill the form:
+1. Go to the **Actions** tab
+2. Select **"Custom Recovery Builder"** workflow
+3. Click **"Run workflow"**
+4. Fill the parameters:
 
-| Parameter               | Description                           | Example |
-|-------------------------|---------------------------------------|---------|
-| Device Codename         | Device codename                       | `whyred` |
-| Recovery Type           | Recovery type                         | `twrp` |
-| Android Version         | Android version                       | `14` |
-| Recovery Tree URL       | Git URL of the tree                   | `https://github.com/...` |
-| Manifest Branch         | Branch (optional)                     | `twrp-14.1` |
-| Telegram Chat ID        | Your Telegram ID                      | `123456789` |
+| Parameter               | Description                                | Example |
+|-------------------------|--------------------------------------------|---------|
+| Device Codename         | Device codename                            | `whyred` |
+| Recovery Type           | Recovery type                              | `twrp` |
+| Android Version         | Target Android version                     | `14` |
+| Recovery Tree URL       | Full Git URL of the tree                   | `https://github.com/TeamWin/android_device_xiaomi_whyred` |
+| Manifest Branch         | Branch name (optional)                     | `twrp-14.1` |
+| Telegram Chat ID        | Your Telegram Chat ID                      | `123456789` |
 
 ---
 
-**Ready to build?**
+## 🛠 Supported Recoveries
+
+- TWRP (Official & Custom)
+- OrangeFox Recovery
+- PitchBlack Recovery
+- SHRP (SkyHawk Recovery Project)
+- OmniROM Recovery
+- Any Custom / Legacy Tree
+
+---
+
+## 📊 Tech Stack
+
+| Component            | Technology                  |
+|----------------------|-----------------------------|
+| Automation           | GitHub Actions              |
+| Build Servers        | AWS EC2 High Performance    |
+| Acceleration         | CCache + Optimizations      |
+| Storage              | Private Amazon S3           |
+| Notifications        | Telegram Bot                |
+
+---
+
+**Ready to build your recovery?**
 
 <p align="center">
   <a href="https://github.com/Il103/Custom-Recovery-Builder/actions">
