@@ -1,81 +1,59 @@
 # Custom Recovery Builder
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Custom%20Recovery%20Builder-000000?style=for-the-badge&logo=android&logoColor=00FF9F&labelColor=111111" width="580" height="60" alt="Main Banner">
+  <img src="https://i.imgur.com/0zK8v.gif" width="800" alt="Recovery Builder Banner">
 </p>
 
 <p align="center">
-  <strong>The Most Advanced Custom Recovery Building Platform</strong><br>
+  <strong>The Ultimate Custom Recovery Building Experience</strong><br>
   <em>Lightning Fast • Fully Private • URL Based</em>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-00FF88?style=for-the-badge&logo=vercel&logoColor=black" alt="Status">
-  <img src="https://img.shields.io/badge/Android-10%20|%2011%20|%2012%20|%2013%20|%2014%20|%2015%20|%2016-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android Versions">
-  <img src="https://img.shields.io/badge/Powered%20by-AWS%20EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS">
+  <img src="https://img.shields.io/badge/Status-Active-00FF88?style=for-the-badge&logo=vercel" alt="Status">
+  <img src="https://img.shields.io/badge/Android-10..16-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android">
+  <img src="https://img.shields.io/badge/Powered%20by-AWS%20EC2-FF9900?style=for-the-badge&logo=amazonaws" alt="AWS">
+  <img src="https://img.shields.io/badge/Notifications-Telegram-229ED9?style=for-the-badge&logo=telegram" alt="Telegram">
 </p>
 
 ---
 
 <div align="center">
-
-### ⚡ **Blazing Fast • Completely Private • Truly Universal**
-
+  <h2>⚡ Blazing Fast • 100% Private • Truly Universal</h2>
 </div>
 
 ---
 
 ## ✨ Key Features
 
-- ⚡ **Ultra Fast Builds** on powerful AWS EC2 servers (High CPU + RAM)
-- 🔒 **100% Private Builds** — No one else can see or access your files
-- 📲 **Instant Telegram Notifications** the moment your build finishes
-- 🔗 **Smart URL System** — Just paste any Recovery Tree Git link (no uploading needed)
-- 🌍 **Full Support** for TWRP, OrangeFox, PitchBlack, SHRP, OmniROM & any custom fork
-- 🧩 Android 10 up to 16 supported
+- ⚡ **Ultra Fast Builds** on High-End AWS EC2 Servers
+- 🔒 **Completely Private** — Builds visible only to you
+- 📲 **Instant Telegram Notifications**
+- 🔗 **Just Paste URL** — No need to upload device trees
+- 🌍 Supports **TWRP, OrangeFox, PitchBlack, SHRP, OmniROM** and any custom tree
+- 🧩 Full Android 10 to 16 support
 
 ---
 
 ## 🚀 How to Build
 
-1. Go to the **Actions** tab
-2. Select **Custom Recovery Builder**
+1. Go to **Actions** tab
+2. Choose **Custom Recovery Builder**
 3. Click **Run workflow**
-4. Fill these fields:
+4. Fill the form:
 
-| Parameter               | Description                              | Example |
-|-------------------------|------------------------------------------|---------|
-| Device Codename         | Device codename                          | `whyred` |
-| Recovery Type           | Recovery type                            | `twrp` |
-| Android Version         | Target version                           | `14` |
-| Recovery Tree URL       | Git URL of your tree                     | `https://github.com/TeamWin/android_device_xiaomi_whyred` |
-| Manifest Branch         | Branch name                              | `twrp-14.1` |
-| Telegram Chat ID        | Your Telegram ID                         | `123456789` |
-
----
-
-## 🛠 Supported Recoveries
-
-- **TWRP** (Official + AOSP Based)
-- **OrangeFox Recovery**
-- **PitchBlack Recovery**
-- **SHRP (SkyHawk)**
-- **OmniROM Recovery**
-- Any Custom / Legacy Recovery Tree
+| Parameter               | Description                           | Example |
+|-------------------------|---------------------------------------|---------|
+| Device Codename         | Device codename                       | `whyred` |
+| Recovery Type           | Recovery type                         | `twrp` |
+| Android Version         | Android version                       | `14` |
+| Recovery Tree URL       | Git URL of the tree                   | `https://github.com/...` |
+| Manifest Branch         | Branch (optional)                     | `twrp-14.1` |
+| Telegram Chat ID        | Your Telegram ID                      | `123456789` |
 
 ---
 
-## 📊 Power Technologies
-
-- **GitHub Actions** → Automation
-- **AWS EC2** → Monster Performance
-- **CCache** → Extreme Speed
-- **Amazon S3** → Private Storage
-- **Telegram Bot** → Instant Alerts
-
----
-
-**Ready to experience real power?**
+**Ready to build?**
 
 <p align="center">
   <a href="https://github.com/Il103/Custom-Recovery-Builder/actions">
@@ -85,5 +63,4 @@
 
 ---
 
-**Made by BERU (Youssef)** ❤️  
-Pushing Android Development Limits
+**Made by BERU (Youssef)** ❤️
