@@ -6,7 +6,8 @@ on:
       device_tree:
         description: Device Tree URL (Your GitHub/GitLab Repo)
         required: true
-        default: https://github.com/username/device_tree_repo.git
+        default: PizzaG/android_device_motorola_boston
+        type: string
 
       device_branch:
         description: Device Tree Branch
