@@ -12,7 +12,7 @@ on:
       device_branch:
         description: Device Tree Branch
         required: true
-        default: main
+        default: TWRP
 
       recovery_type:
         description: Recovery Type
